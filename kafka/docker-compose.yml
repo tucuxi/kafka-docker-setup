@@ -74,4 +74,4 @@ services:
       CONNECT_INTERNAL_VALUE_CONVERTER: org.apache.kafka.connect.json.JsonConverter
       CONNECT_ZOOKEEPER_CONNECT: "zookeeper:2181"
     volumes:
-      - /home/cloudadm/datasource:/var/lib/kafka/data
+      - /home/cloudadm/extdata:/var/lib/kafka/data
